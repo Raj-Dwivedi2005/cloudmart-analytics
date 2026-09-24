@@ -121,12 +121,12 @@ tab1, tab2, tab3, tab4 = st.tabs(["📈 Revenue Trends", "🏷️ Product & Cate
 with tab1:
     st.subheader("Monthly Revenue Trend & Volume")
     df_monthly = (
-        filtered_df.set_index("order_date")
-        .groupby(pd.Grouper(freq="M"))["net_amount"]
+        filtered_df.groupby(filtered_df["order_date"].dt.to_period("M"))["net_amount"]
         .sum()
         .reset_index()
     )
-    df_monthly["month_str"] = df_monthly["order_date"].dt.strftime("%Y-%m")
+    df_monthly["month_str"] = df_monthly["order_date"].astype(str)
+    df_monthly["order_date"] = df_monthly["order_date"].dt.to_timestamp()
 
     fig_trend = px.line(
         df_monthly,

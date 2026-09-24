@@ -45,6 +45,7 @@ class SCD2Handler:
                 .withColumn("end_date", to_date(lit("9999-12-31")))
                 .withColumn("is_current", lit(True))
                 .withColumn("version", lit(1))
+                .drop("attr_hash")
             )
             return initial_dim
 
@@ -80,14 +81,16 @@ class SCD2Handler:
                 col("e.existing_attr_hash").isNull() |
                 (col("u.attr_hash") != col("e.existing_attr_hash"))
             )
-            .select("u.*")
+            .withColumn(
+                "calc_version",
+                coalesce(col("e.version"), lit(0)) + 1
+            )
+            .select("u.*", "calc_version")
+            .withColumnRenamed("calc_version", "version")
             .withColumn("effective_date", to_date(lit(effective_date_str)))
             .withColumn("end_date", to_date(lit("9999-12-31")))
             .withColumn("is_current", lit(True))
-            .withColumn(
-                "version",
-                coalesce(col("e.version"), lit(0)) + 1
-            )
+            .drop("attr_hash")
         )
 
         # Unchanged existing active records

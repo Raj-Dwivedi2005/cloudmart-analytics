@@ -1,0 +1,5 @@
+region_key,region_id,region_name,country_code,manager_name
+1,REG_01,North America,US,Sarah Connor
+2,REG_02,EMEA,DE,Hans Gruber
+3,REG_03,APAC,JP,Kenji Sato
+4,REG_04,LATAM,BR,Carlos Silva

@@ -1,0 +1,501 @@
+customer_key,customer_id,first_name,last_name,email,customer_segment,country,city,postal_code,effective_date,end_date,is_current,version
+1,CUST_0001,Mary,Smith,cust_1@example.com,Premium,Canada,Sample City,39256,2025-01-01,9999-12-31,True,1
+2,CUST_0002,John,Johnson,cust_2@example.com,Premium,Japan,Sample City,21395,2025-01-01,9999-12-31,True,1
+3,CUST_0003,Elizabeth,Miller,cust_3@example.com,Standard,United States,Sample City,38657,2025-01-01,9999-12-31,True,1
+4,CUST_0004,Patricia,Rodriguez,cust_4@example.com,Premium,Japan,Sample City,36062,2025-01-01,9999-12-31,True,1
+5,CUST_0005,William,Miller,cust_5@example.com,Standard,Japan,Sample City,46463,2025-01-01,9999-12-31,True,1
+6,CUST_0006,James,Williams,cust_6@example.com,Premium,United Kingdom,Sample City,46421,2025-01-01,9999-12-31,True,1
+7,CUST_0007,John,Brown,cust_7@example.com,VIP,United Kingdom,Sample City,23396,2025-01-01,9999-12-31,True,1
+8,CUST_0008,Mary,Miller,cust_8@example.com,Standard,United Kingdom,Sample City,89131,2025-01-01,9999-12-31,True,1
+9,CUST_0009,Robert,Smith,cust_9@example.com,Premium,Japan,Sample City,26361,2025-01-01,9999-12-31,True,1
+10,CUST_0010,Michael,Johnson,cust_10@example.com,Standard,Australia,Sample City,91070,2025-01-01,9999-12-31,True,1
+11,CUST_0011,Jennifer,Martinez,cust_11@example.com,Standard,United States,Sample City,16006,2025-01-01,9999-12-31,True,1
+12,CUST_0012,Patricia,Jones,cust_12@example.com,VIP,Canada,Sample City,23238,2025-01-01,9999-12-31,True,1
+13,CUST_0013,Michael,Jones,cust_13@example.com,Standard,United Kingdom,Sample City,31319,2025-01-01,9999-12-31,True,1
+14,CUST_0014,Jennifer,Garcia,cust_14@example.com,Standard,United Kingdom,Sample City,99593,2025-01-01,9999-12-31,True,1
+15,CUST_0015,Mary,Martinez,cust_15@example.com,Premium,Japan,Sample City,42087,2025-01-01,9999-12-31,True,1
+16,CUST_0016,John,Davis,cust_16@example.com,Standard,Australia,Sample City,83000,2025-01-01,9999-12-31,True,1
+17,CUST_0017,Patricia,Garcia,cust_17@example.com,Premium,United States,Sample City,40021,2025-01-01,9999-12-31,True,1
+18,CUST_0018,James,Garcia,cust_18@example.com,Standard,United States,Sample City,37653,2025-01-01,9999-12-31,True,1
+19,CUST_0019,Elizabeth,Garcia,cust_19@example.com,Standard,Germany,Sample City,61856,2025-01-01,9999-12-31,True,1
+20,CUST_0020,Linda,Williams,cust_20@example.com,Standard,Canada,Sample City,83579,2025-01-01,9999-12-31,True,1
+21,CUST_0021,William,Jones,cust_21@example.com,Premium,Germany,Sample City,86484,2025-01-01,9999-12-31,True,1
+22,CUST_0022,Michael,Garcia,cust_22@example.com,Standard,Canada,Sample City,76784,2025-01-01,9999-12-31,True,1
+23,CUST_0023,Linda,Johnson,cust_23@example.com,Premium,United States,Sample City,30033,2025-01-01,9999-12-31,True,1
+24,CUST_0024,John,Miller,cust_24@example.com,Standard,Germany,Sample City,60019,2025-01-01,9999-12-31,True,1
+25,CUST_0025,Elizabeth,Davis,cust_25@example.com,Standard,Japan,Sample City,11504,2025-01-01,9999-12-31,True,1
+26,CUST_0026,Mary,Rodriguez,cust_26@example.com,Premium,Australia,Sample City,54587,2025-01-01,9999-12-31,True,1
+27,CUST_0027,Mary,Jones,cust_27@example.com,Standard,Germany,Sample City,10425,2025-01-01,9999-12-31,True,1
+28,CUST_0028,Robert,Rodriguez,cust_28@example.com,Premium,Japan,Sample City,23947,2025-01-01,9999-12-31,True,1
+29,CUST_0029,Robert,Rodriguez,cust_29@example.com,Premium,Canada,Sample City,59009,2025-01-01,9999-12-31,True,1
+30,CUST_0030,John,Rodriguez,cust_30@example.com,VIP,Japan,Sample City,10074,2025-01-01,9999-12-31,True,1
+31,CUST_0031,Elizabeth,Garcia,cust_31@example.com,Standard,United States,Sample City,57576,2025-01-01,9999-12-31,True,1
+32,CUST_0032,Robert,Brown,cust_32@example.com,Standard,Japan,Sample City,20322,2025-01-01,9999-12-31,True,1
+33,CUST_0033,Mary,Davis,cust_33@example.com,Premium,Japan,Sample City,26483,2025-01-01,9999-12-31,True,1
+34,CUST_0034,John,Davis,cust_34@example.com,VIP,Canada,Sample City,44741,2025-01-01,9999-12-31,True,1
+35,CUST_0035,William,Martinez,cust_35@example.com,Standard,Canada,Sample City,80686,2025-01-01,9999-12-31,True,1
+36,CUST_0036,Patricia,Jones,cust_36@example.com,Standard,Australia,Sample City,95180,2025-01-01,9999-12-31,True,1
+37,CUST_0037,Jennifer,Davis,cust_37@example.com,Premium,Germany,Sample City,25860,2025-01-01,9999-12-31,True,1
+38,CUST_0038,Patricia,Brown,cust_38@example.com,Standard,United States,Sample City,87110,2025-01-01,9999-12-31,True,1
+39,CUST_0039,William,Brown,cust_39@example.com,Standard,United States,Sample City,19305,2025-01-01,9999-12-31,True,1
+40,CUST_0040,James,Brown,cust_40@example.com,Standard,United States,Sample City,53309,2025-01-01,9999-12-31,True,1
+41,CUST_0041,Mary,Rodriguez,cust_41@example.com,Standard,Australia,Sample City,73624,2025-01-01,9999-12-31,True,1
+42,CUST_0042,Patricia,Rodriguez,cust_42@example.com,Standard,Japan,Sample City,85525,2025-01-01,9999-12-31,True,1
+43,CUST_0043,Linda,Brown,cust_43@example.com,Premium,Germany,Sample City,34957,2025-01-01,9999-12-31,True,1
+44,CUST_0044,Mary,Johnson,cust_44@example.com,Premium,United Kingdom,Sample City,65519,2025-01-01,9999-12-31,True,1
+45,CUST_0045,Michael,Davis,cust_45@example.com,Premium,United States,Sample City,98259,2025-01-01,9999-12-31,True,1
+46,CUST_0046,Mary,Smith,cust_46@example.com,Standard,United Kingdom,Sample City,24322,2025-01-01,9999-12-31,True,1
+47,CUST_0047,Patricia,Brown,cust_47@example.com,Standard,Germany,Sample City,28373,2025-01-01,9999-12-31,True,1
+48,CUST_0048,Michael,Williams,cust_48@example.com,Standard,Canada,Sample City,19880,2025-01-01,9999-12-31,True,1
+49,CUST_0049,Linda,Rodriguez,cust_49@example.com,Standard,Australia,Sample City,80855,2025-01-01,9999-12-31,True,1
+50,CUST_0050,James,Johnson,cust_50@example.com,VIP,Canada,Sample City,31798,2025-01-01,9999-12-31,True,1
+51,CUST_0051,Michael,Davis,cust_51@example.com,Standard,Germany,Sample City,17685,2025-01-01,9999-12-31,True,1
+52,CUST_0052,John,Miller,cust_52@example.com,Standard,Germany,Sample City,44760,2025-01-01,9999-12-31,True,1
+53,CUST_0053,Linda,Jones,cust_53@example.com,Standard,Australia,Sample City,82845,2025-01-01,9999-12-31,True,1
+54,CUST_0054,Linda,Williams,cust_54@example.com,Standard,Canada,Sample City,17665,2025-01-01,9999-12-31,True,1
+55,CUST_0055,Elizabeth,Rodriguez,cust_55@example.com,Standard,United Kingdom,Sample City,17492,2025-01-01,9999-12-31,True,1
+56,CUST_0056,James,Martinez,cust_56@example.com,Standard,Japan,Sample City,30635,2025-01-01,9999-12-31,True,1
+57,CUST_0057,James,Rodriguez,cust_57@example.com,Standard,Canada,Sample City,18981,2025-01-01,9999-12-31,True,1
+58,CUST_0058,Elizabeth,Johnson,cust_58@example.com,Premium,Canada,Sample City,62923,2025-01-01,9999-12-31,True,1
+59,CUST_0059,Mary,Martinez,cust_59@example.com,Standard,Japan,Sample City,15209,2025-01-01,9999-12-31,True,1
+60,CUST_0060,Elizabeth,Johnson,cust_60@example.com,Standard,Japan,Sample City,84085,2025-01-01,9999-12-31,True,1
+61,CUST_0061,William,Garcia,cust_61@example.com,VIP,Canada,Sample City,97782,2025-01-01,9999-12-31,True,1
+62,CUST_0062,Jennifer,Brown,cust_62@example.com,Standard,Canada,Sample City,98039,2025-01-01,9999-12-31,True,1
+63,CUST_0063,Robert,Davis,cust_63@example.com,Standard,United States,Sample City,11220,2025-01-01,9999-12-31,True,1
+64,CUST_0064,Linda,Martinez,cust_64@example.com,VIP,United States,Sample City,19602,2025-01-01,9999-12-31,True,1
+65,CUST_0065,William,Brown,cust_65@example.com,Standard,Canada,Sample City,55745,2025-01-01,9999-12-31,True,1
+66,CUST_0066,Mary,Brown,cust_66@example.com,Standard,Canada,Sample City,67433,2025-01-01,9999-12-31,True,1
+67,CUST_0067,William,Jones,cust_67@example.com,Premium,Australia,Sample City,79329,2025-01-01,9999-12-31,True,1
+68,CUST_0068,James,Rodriguez,cust_68@example.com,Standard,Australia,Sample City,23577,2025-01-01,9999-12-31,True,1
+69,CUST_0069,John,Jones,cust_69@example.com,Standard,United States,Sample City,82512,2025-01-01,9999-12-31,True,1
+70,CUST_0070,John,Jones,cust_70@example.com,Standard,Canada,Sample City,54942,2025-01-01,9999-12-31,True,1
+71,CUST_0071,Patricia,Jones,cust_71@example.com,Standard,United Kingdom,Sample City,16658,2025-01-01,9999-12-31,True,1
+72,CUST_0072,Mary,Miller,cust_72@example.com,Premium,United States,Sample City,10464,2025-01-01,9999-12-31,True,1
+73,CUST_0073,Jennifer,Williams,cust_73@example.com,Premium,United Kingdom,Sample City,31178,2025-01-01,9999-12-31,True,1
+74,CUST_0074,Linda,Rodriguez,cust_74@example.com,Premium,Japan,Sample City,11267,2025-01-01,9999-12-31,True,1
+75,CUST_0075,Mary,Johnson,cust_75@example.com,VIP,Australia,Sample City,29536,2025-01-01,9999-12-31,True,1
+76,CUST_0076,William,Smith,cust_76@example.com,Premium,Japan,Sample City,82420,2025-01-01,9999-12-31,True,1
+77,CUST_0077,John,Miller,cust_77@example.com,Standard,United Kingdom,Sample City,57795,2025-01-01,9999-12-31,True,1
+78,CUST_0078,James,Garcia,cust_78@example.com,Standard,Canada,Sample City,97416,2025-01-01,9999-12-31,True,1
+79,CUST_0079,Mary,Garcia,cust_79@example.com,Premium,Germany,Sample City,91351,2025-01-01,9999-12-31,True,1
+80,CUST_0080,John,Brown,cust_80@example.com,Premium,Canada,Sample City,64040,2025-01-01,9999-12-31,True,1
+81,CUST_0081,James,Williams,cust_81@example.com,Premium,United Kingdom,Sample City,63964,2025-01-01,9999-12-31,True,1
+82,CUST_0082,Patricia,Jones,cust_82@example.com,Standard,Australia,Sample City,24168,2025-01-01,9999-12-31,True,1
+83,CUST_0083,Michael,Smith,cust_83@example.com,Premium,Canada,Sample City,36158,2025-01-01,9999-12-31,True,1
+84,CUST_0084,Linda,Garcia,cust_84@example.com,Standard,Canada,Sample City,39219,2025-01-01,9999-12-31,True,1
+85,CUST_0085,James,Brown,cust_85@example.com,Standard,United Kingdom,Sample City,19099,2025-01-01,9999-12-31,True,1
+86,CUST_0086,Robert,Garcia,cust_86@example.com,Premium,Germany,Sample City,99065,2025-01-01,9999-12-31,True,1
+87,CUST_0087,William,Garcia,cust_87@example.com,VIP,United States,Sample City,44237,2025-01-01,9999-12-31,True,1
+88,CUST_0088,John,Martinez,cust_88@example.com,VIP,United Kingdom,Sample City,15014,2025-01-01,9999-12-31,True,1
+89,CUST_0089,Mary,Martinez,cust_89@example.com,Standard,Australia,Sample City,51114,2025-01-01,9999-12-31,True,1
+90,CUST_0090,Michael,Martinez,cust_90@example.com,VIP,United States,Sample City,60488,2025-01-01,9999-12-31,True,1
+91,CUST_0091,Elizabeth,Brown,cust_91@example.com,Standard,Australia,Sample City,67154,2025-01-01,9999-12-31,True,1
+92,CUST_0092,James,Rodriguez,cust_92@example.com,VIP,Japan,Sample City,97900,2025-01-01,9999-12-31,True,1
+93,CUST_0093,Patricia,Garcia,cust_93@example.com,Standard,Australia,Sample City,53279,2025-01-01,9999-12-31,True,1
+94,CUST_0094,Elizabeth,Garcia,cust_94@example.com,Premium,United States,Sample City,49363,2025-01-01,9999-12-31,True,1
+95,CUST_0095,William,Jones,cust_95@example.com,Premium,United Kingdom,Sample City,62743,2025-01-01,9999-12-31,True,1
+96,CUST_0096,Robert,Rodriguez,cust_96@example.com,Standard,Germany,Sample City,97153,2025-01-01,9999-12-31,True,1
+97,CUST_0097,Michael,Williams,cust_97@example.com,Premium,United Kingdom,Sample City,63225,2025-01-01,9999-12-31,True,1
+98,CUST_0098,William,Smith,cust_98@example.com,Standard,Canada,Sample City,66346,2025-01-01,9999-12-31,True,1
+99,CUST_0099,Elizabeth,Martinez,cust_99@example.com,Premium,Germany,Sample City,67905,2025-01-01,9999-12-31,True,1
+100,CUST_0100,Linda,Brown,cust_100@example.com,Standard,Australia,Sample City,32241,2025-01-01,9999-12-31,True,1
+101,CUST_0101,Mary,Jones,cust_101@example.com,Standard,Australia,Sample City,91167,2025-01-01,9999-12-31,True,1
+102,CUST_0102,Jennifer,Johnson,cust_102@example.com,Premium,Canada,Sample City,98184,2025-01-01,9999-12-31,True,1
+103,CUST_0103,Robert,Brown,cust_103@example.com,Premium,Canada,Sample City,13201,2025-01-01,9999-12-31,True,1
+104,CUST_0104,James,Brown,cust_104@example.com,VIP,Japan,Sample City,19545,2025-01-01,9999-12-31,True,1
+105,CUST_0105,Linda,Miller,cust_105@example.com,Premium,Japan,Sample City,35485,2025-01-01,9999-12-31,True,1
+106,CUST_0106,Michael,Davis,cust_106@example.com,Standard,Canada,Sample City,95990,2025-01-01,9999-12-31,True,1
+107,CUST_0107,James,Johnson,cust_107@example.com,Premium,Canada,Sample City,33053,2025-01-01,9999-12-31,True,1
+108,CUST_0108,William,Davis,cust_108@example.com,Standard,Canada,Sample City,25906,2025-01-01,9999-12-31,True,1
+109,CUST_0109,Linda,Williams,cust_109@example.com,Premium,Australia,Sample City,79616,2025-01-01,9999-12-31,True,1
+110,CUST_0110,William,Martinez,cust_110@example.com,Standard,Germany,Sample City,90301,2025-01-01,9999-12-31,True,1
+111,CUST_0111,William,Miller,cust_111@example.com,Premium,Japan,Sample City,68446,2025-01-01,9999-12-31,True,1
+112,CUST_0112,John,Davis,cust_112@example.com,Standard,Canada,Sample City,93579,2025-01-01,9999-12-31,True,1
+113,CUST_0113,Robert,Rodriguez,cust_113@example.com,Standard,Canada,Sample City,45992,2025-01-01,9999-12-31,True,1
+114,CUST_0114,Linda,Johnson,cust_114@example.com,Premium,Canada,Sample City,45614,2025-01-01,9999-12-31,True,1
+115,CUST_0115,Jennifer,Garcia,cust_115@example.com,Premium,United States,Sample City,28136,2025-01-01,9999-12-31,True,1
+116,CUST_0116,John,Brown,cust_116@example.com,Standard,Canada,Sample City,38043,2025-01-01,9999-12-31,True,1
+117,CUST_0117,Mary,Miller,cust_117@example.com,Standard,Japan,Sample City,71069,2025-01-01,9999-12-31,True,1
+118,CUST_0118,Michael,Smith,cust_118@example.com,Standard,Germany,Sample City,61049,2025-01-01,9999-12-31,True,1
+119,CUST_0119,Elizabeth,Smith,cust_119@example.com,Premium,Japan,Sample City,59857,2025-01-01,9999-12-31,True,1
+120,CUST_0120,Linda,Smith,cust_120@example.com,VIP,United Kingdom,Sample City,61116,2025-01-01,9999-12-31,True,1
+121,CUST_0121,Michael,Rodriguez,cust_121@example.com,Premium,Japan,Sample City,89069,2025-01-01,9999-12-31,True,1
+122,CUST_0122,Patricia,Davis,cust_122@example.com,Standard,Germany,Sample City,73654,2025-01-01,9999-12-31,True,1
+123,CUST_0123,James,Miller,cust_123@example.com,Standard,Australia,Sample City,62994,2025-01-01,9999-12-31,True,1
+124,CUST_0124,John,Davis,cust_124@example.com,VIP,Japan,Sample City,80008,2025-01-01,9999-12-31,True,1
+125,CUST_0125,James,Miller,cust_125@example.com,Standard,Australia,Sample City,13552,2025-01-01,9999-12-31,True,1
+126,CUST_0126,Mary,Miller,cust_126@example.com,Standard,Germany,Sample City,33819,2025-01-01,9999-12-31,True,1
+127,CUST_0127,James,Jones,cust_127@example.com,Standard,Canada,Sample City,69598,2025-01-01,9999-12-31,True,1
+128,CUST_0128,Jennifer,Garcia,cust_128@example.com,Premium,Germany,Sample City,46471,2025-01-01,9999-12-31,True,1
+129,CUST_0129,Michael,Jones,cust_129@example.com,Premium,Germany,Sample City,12540,2025-01-01,9999-12-31,True,1
+130,CUST_0130,William,Smith,cust_130@example.com,VIP,United Kingdom,Sample City,39389,2025-01-01,9999-12-31,True,1
+131,CUST_0131,Mary,Smith,cust_131@example.com,Premium,Canada,Sample City,36130,2025-01-01,9999-12-31,True,1
+132,CUST_0132,James,Martinez,cust_132@example.com,Standard,Canada,Sample City,72070,2025-01-01,9999-12-31,True,1
+133,CUST_0133,Mary,Martinez,cust_133@example.com,VIP,Germany,Sample City,43586,2025-01-01,9999-12-31,True,1
+134,CUST_0134,Jennifer,Williams,cust_134@example.com,Premium,Australia,Sample City,25012,2025-01-01,9999-12-31,True,1
+135,CUST_0135,John,Jones,cust_135@example.com,Standard,United States,Sample City,50888,2025-01-01,9999-12-31,True,1
+136,CUST_0136,Elizabeth,Miller,cust_136@example.com,Standard,Australia,Sample City,35995,2025-01-01,9999-12-31,True,1
+137,CUST_0137,Mary,Martinez,cust_137@example.com,Premium,Australia,Sample City,41830,2025-01-01,9999-12-31,True,1
+138,CUST_0138,Mary,Jones,cust_138@example.com,Premium,Japan,Sample City,25866,2025-01-01,9999-12-31,True,1
+139,CUST_0139,Elizabeth,Smith,cust_139@example.com,Standard,Germany,Sample City,96706,2025-01-01,9999-12-31,True,1
+140,CUST_0140,Jennifer,Johnson,cust_140@example.com,Standard,United Kingdom,Sample City,11658,2025-01-01,9999-12-31,True,1
+141,CUST_0141,Michael,Davis,cust_141@example.com,Standard,United Kingdom,Sample City,93307,2025-01-01,9999-12-31,True,1
+142,CUST_0142,Linda,Williams,cust_142@example.com,Standard,Australia,Sample City,78386,2025-01-01,9999-12-31,True,1
+143,CUST_0143,Robert,Martinez,cust_143@example.com,Premium,Japan,Sample City,73372,2025-01-01,9999-12-31,True,1
+144,CUST_0144,Linda,Miller,cust_144@example.com,Premium,Japan,Sample City,45179,2025-01-01,9999-12-31,True,1
+145,CUST_0145,Jennifer,Brown,cust_145@example.com,Premium,United States,Sample City,46559,2025-01-01,9999-12-31,True,1
+146,CUST_0146,Linda,Brown,cust_146@example.com,Premium,Japan,Sample City,89997,2025-01-01,9999-12-31,True,1
+147,CUST_0147,Michael,Garcia,cust_147@example.com,Standard,United Kingdom,Sample City,33834,2025-01-01,9999-12-31,True,1
+148,CUST_0148,Linda,Brown,cust_148@example.com,Standard,United Kingdom,Sample City,54608,2025-01-01,9999-12-31,True,1
+149,CUST_0149,Robert,Martinez,cust_149@example.com,Premium,United Kingdom,Sample City,82848,2025-01-01,9999-12-31,True,1
+150,CUST_0150,James,Rodriguez,cust_150@example.com,VIP,United States,Sample City,41635,2025-01-01,9999-12-31,True,1
+151,CUST_0151,Michael,Davis,cust_151@example.com,Standard,Canada,Sample City,72402,2025-01-01,9999-12-31,True,1
+152,CUST_0152,Linda,Davis,cust_152@example.com,Premium,United States,Sample City,48566,2025-01-01,9999-12-31,True,1
+153,CUST_0153,Patricia,Miller,cust_153@example.com,Premium,United Kingdom,Sample City,97026,2025-01-01,9999-12-31,True,1
+154,CUST_0154,Elizabeth,Garcia,cust_154@example.com,Standard,Japan,Sample City,55056,2025-01-01,9999-12-31,True,1
+155,CUST_0155,Michael,Rodriguez,cust_155@example.com,Standard,Australia,Sample City,69473,2025-01-01,9999-12-31,True,1
+156,CUST_0156,Robert,Jones,cust_156@example.com,Standard,United States,Sample City,35242,2025-01-01,9999-12-31,True,1
+157,CUST_0157,Jennifer,Johnson,cust_157@example.com,Premium,Australia,Sample City,34267,2025-01-01,9999-12-31,True,1
+158,CUST_0158,Patricia,Brown,cust_158@example.com,Premium,United Kingdom,Sample City,87278,2025-01-01,9999-12-31,True,1
+159,CUST_0159,William,Martinez,cust_159@example.com,Standard,United States,Sample City,35443,2025-01-01,9999-12-31,True,1
+160,CUST_0160,Robert,Brown,cust_160@example.com,Standard,United Kingdom,Sample City,11854,2025-01-01,9999-12-31,True,1
+161,CUST_0161,William,Williams,cust_161@example.com,Standard,United States,Sample City,82529,2025-01-01,9999-12-31,True,1
+162,CUST_0162,Robert,Williams,cust_162@example.com,Premium,Germany,Sample City,23446,2025-01-01,9999-12-31,True,1
+163,CUST_0163,James,Martinez,cust_163@example.com,Standard,Germany,Sample City,67733,2025-01-01,9999-12-31,True,1
+164,CUST_0164,Jennifer,Williams,cust_164@example.com,VIP,United Kingdom,Sample City,72616,2025-01-01,9999-12-31,True,1
+165,CUST_0165,Mary,Johnson,cust_165@example.com,Standard,United States,Sample City,85631,2025-01-01,9999-12-31,True,1
+166,CUST_0166,James,Williams,cust_166@example.com,Standard,Japan,Sample City,49824,2025-01-01,9999-12-31,True,1
+167,CUST_0167,Mary,Brown,cust_167@example.com,Standard,Germany,Sample City,89471,2025-01-01,9999-12-31,True,1
+168,CUST_0168,Elizabeth,Martinez,cust_168@example.com,Standard,Japan,Sample City,59856,2025-01-01,9999-12-31,True,1
+169,CUST_0169,Linda,Davis,cust_169@example.com,Standard,Japan,Sample City,66207,2025-01-01,9999-12-31,True,1
+170,CUST_0170,Robert,Martinez,cust_170@example.com,Premium,Japan,Sample City,23006,2025-01-01,9999-12-31,True,1
+171,CUST_0171,Patricia,Brown,cust_171@example.com,Standard,United States,Sample City,30585,2025-01-01,9999-12-31,True,1
+172,CUST_0172,Patricia,Williams,cust_172@example.com,Standard,Canada,Sample City,10350,2025-01-01,9999-12-31,True,1
+173,CUST_0173,Michael,Davis,cust_173@example.com,Premium,Germany,Sample City,48175,2025-01-01,9999-12-31,True,1
+174,CUST_0174,James,Brown,cust_174@example.com,Standard,United Kingdom,Sample City,69510,2025-01-01,9999-12-31,True,1
+175,CUST_0175,Mary,Brown,cust_175@example.com,VIP,Australia,Sample City,87304,2025-01-01,9999-12-31,True,1
+176,CUST_0176,Patricia,Miller,cust_176@example.com,Standard,Canada,Sample City,94886,2025-01-01,9999-12-31,True,1
+177,CUST_0177,John,Jones,cust_177@example.com,Premium,United States,Sample City,17816,2025-01-01,9999-12-31,True,1
+178,CUST_0178,John,Jones,cust_178@example.com,Standard,Japan,Sample City,47828,2025-01-01,9999-12-31,True,1
+179,CUST_0179,Linda,Johnson,cust_179@example.com,Standard,United Kingdom,Sample City,62757,2025-01-01,9999-12-31,True,1
+180,CUST_0180,Robert,Rodriguez,cust_180@example.com,Standard,Germany,Sample City,20543,2025-01-01,9999-12-31,True,1
+181,CUST_0181,Elizabeth,Smith,cust_181@example.com,Premium,Australia,Sample City,52247,2025-01-01,9999-12-31,True,1
+182,CUST_0182,Elizabeth,Jones,cust_182@example.com,Standard,Canada,Sample City,98381,2025-01-01,9999-12-31,True,1
+183,CUST_0183,Elizabeth,Martinez,cust_183@example.com,VIP,Australia,Sample City,45325,2025-01-01,9999-12-31,True,1
+184,CUST_0184,Elizabeth,Smith,cust_184@example.com,Premium,Canada,Sample City,71669,2025-01-01,9999-12-31,True,1
+185,CUST_0185,William,Davis,cust_185@example.com,VIP,Canada,Sample City,86720,2025-01-01,9999-12-31,True,1
+186,CUST_0186,Michael,Davis,cust_186@example.com,VIP,Germany,Sample City,55607,2025-01-01,9999-12-31,True,1
+187,CUST_0187,Michael,Garcia,cust_187@example.com,Standard,United States,Sample City,31079,2025-01-01,9999-12-31,True,1
+188,CUST_0188,Jennifer,Miller,cust_188@example.com,Premium,United Kingdom,Sample City,96846,2025-01-01,9999-12-31,True,1
+189,CUST_0189,Michael,Rodriguez,cust_189@example.com,Standard,United States,Sample City,51224,2025-01-01,9999-12-31,True,1
+190,CUST_0190,Robert,Garcia,cust_190@example.com,Standard,Germany,Sample City,77449,2025-01-01,9999-12-31,True,1
+191,CUST_0191,James,Rodriguez,cust_191@example.com,Standard,United States,Sample City,34586,2025-01-01,9999-12-31,True,1
+192,CUST_0192,William,Garcia,cust_192@example.com,Premium,Germany,Sample City,91973,2025-01-01,9999-12-31,True,1
+193,CUST_0193,Linda,Smith,cust_193@example.com,Standard,Japan,Sample City,27172,2025-01-01,9999-12-31,True,1
+194,CUST_0194,Robert,Davis,cust_194@example.com,Premium,Germany,Sample City,25915,2025-01-01,9999-12-31,True,1
+195,CUST_0195,James,Martinez,cust_195@example.com,Premium,Australia,Sample City,30758,2025-01-01,9999-12-31,True,1
+196,CUST_0196,Robert,Rodriguez,cust_196@example.com,Standard,Germany,Sample City,22217,2025-01-01,9999-12-31,True,1
+197,CUST_0197,Patricia,Johnson,cust_197@example.com,Standard,United States,Sample City,94896,2025-01-01,9999-12-31,True,1
+198,CUST_0198,John,Davis,cust_198@example.com,VIP,United Kingdom,Sample City,76698,2025-01-01,9999-12-31,True,1
+199,CUST_0199,Robert,Miller,cust_199@example.com,Premium,Germany,Sample City,41946,2025-01-01,9999-12-31,True,1
+200,CUST_0200,Linda,Rodriguez,cust_200@example.com,Standard,Canada,Sample City,88561,2025-01-01,9999-12-31,True,1
+201,CUST_0201,William,Williams,cust_201@example.com,Premium,United Kingdom,Sample City,64387,2025-01-01,9999-12-31,True,1
+202,CUST_0202,Jennifer,Rodriguez,cust_202@example.com,Standard,United States,Sample City,47072,2025-01-01,9999-12-31,True,1
+203,CUST_0203,Robert,Martinez,cust_203@example.com,Standard,Australia,Sample City,74178,2025-01-01,9999-12-31,True,1
+204,CUST_0204,John,Davis,cust_204@example.com,Standard,United Kingdom,Sample City,53573,2025-01-01,9999-12-31,True,1
+205,CUST_0205,William,Rodriguez,cust_205@example.com,Standard,United Kingdom,Sample City,34727,2025-01-01,9999-12-31,True,1
+206,CUST_0206,Patricia,Martinez,cust_206@example.com,Standard,Germany,Sample City,15720,2025-01-01,9999-12-31,True,1
+207,CUST_0207,Jennifer,Davis,cust_207@example.com,Premium,Germany,Sample City,60604,2025-01-01,9999-12-31,True,1
+208,CUST_0208,John,Davis,cust_208@example.com,VIP,Canada,Sample City,75836,2025-01-01,9999-12-31,True,1
+209,CUST_0209,Elizabeth,Garcia,cust_209@example.com,Premium,Germany,Sample City,23069,2025-01-01,9999-12-31,True,1
+210,CUST_0210,William,Davis,cust_210@example.com,Standard,Canada,Sample City,63736,2025-01-01,9999-12-31,True,1
+211,CUST_0211,John,Johnson,cust_211@example.com,Standard,United Kingdom,Sample City,54375,2025-01-01,9999-12-31,True,1
+212,CUST_0212,Elizabeth,Miller,cust_212@example.com,Premium,United Kingdom,Sample City,98389,2025-01-01,9999-12-31,True,1
+213,CUST_0213,William,Miller,cust_213@example.com,VIP,Australia,Sample City,73956,2025-01-01,9999-12-31,True,1
+214,CUST_0214,William,Smith,cust_214@example.com,Premium,Canada,Sample City,92727,2025-01-01,9999-12-31,True,1
+215,CUST_0215,Robert,Brown,cust_215@example.com,Premium,Germany,Sample City,22903,2025-01-01,9999-12-31,True,1
+216,CUST_0216,Mary,Davis,cust_216@example.com,Standard,United Kingdom,Sample City,13794,2025-01-01,9999-12-31,True,1
+217,CUST_0217,James,Garcia,cust_217@example.com,Premium,United Kingdom,Sample City,56984,2025-01-01,9999-12-31,True,1
+218,CUST_0218,Jennifer,Miller,cust_218@example.com,Standard,Japan,Sample City,64008,2025-01-01,9999-12-31,True,1
+219,CUST_0219,Elizabeth,Williams,cust_219@example.com,Standard,United States,Sample City,89887,2025-01-01,9999-12-31,True,1
+220,CUST_0220,Michael,Martinez,cust_220@example.com,Premium,Germany,Sample City,86435,2025-01-01,9999-12-31,True,1
+221,CUST_0221,John,Brown,cust_221@example.com,Standard,United Kingdom,Sample City,70236,2025-01-01,9999-12-31,True,1
+222,CUST_0222,Robert,Smith,cust_222@example.com,Premium,Germany,Sample City,47700,2025-01-01,9999-12-31,True,1
+223,CUST_0223,William,Williams,cust_223@example.com,Standard,United Kingdom,Sample City,87014,2025-01-01,9999-12-31,True,1
+224,CUST_0224,Robert,Miller,cust_224@example.com,Premium,Germany,Sample City,49599,2025-01-01,9999-12-31,True,1
+225,CUST_0225,Patricia,Miller,cust_225@example.com,Premium,United States,Sample City,41091,2025-01-01,9999-12-31,True,1
+226,CUST_0226,Michael,Martinez,cust_226@example.com,Standard,United Kingdom,Sample City,48696,2025-01-01,9999-12-31,True,1
+227,CUST_0227,James,Miller,cust_227@example.com,Standard,Japan,Sample City,99889,2025-01-01,9999-12-31,True,1
+228,CUST_0228,James,Martinez,cust_228@example.com,Premium,United Kingdom,Sample City,40162,2025-01-01,9999-12-31,True,1
+229,CUST_0229,Elizabeth,Garcia,cust_229@example.com,Standard,Canada,Sample City,91381,2025-01-01,9999-12-31,True,1
+230,CUST_0230,Robert,Williams,cust_230@example.com,Premium,Australia,Sample City,94717,2025-01-01,9999-12-31,True,1
+231,CUST_0231,James,Jones,cust_231@example.com,Premium,United States,Sample City,85965,2025-01-01,9999-12-31,True,1
+232,CUST_0232,Jennifer,Williams,cust_232@example.com,Standard,United Kingdom,Sample City,52823,2025-01-01,9999-12-31,True,1
+233,CUST_0233,Michael,Williams,cust_233@example.com,Standard,Japan,Sample City,57953,2025-01-01,9999-12-31,True,1
+234,CUST_0234,William,Rodriguez,cust_234@example.com,VIP,Canada,Sample City,43681,2025-01-01,9999-12-31,True,1
+235,CUST_0235,Linda,Jones,cust_235@example.com,Premium,United Kingdom,Sample City,25095,2025-01-01,9999-12-31,True,1
+236,CUST_0236,Linda,Johnson,cust_236@example.com,Standard,Canada,Sample City,98647,2025-01-01,9999-12-31,True,1
+237,CUST_0237,Michael,Rodriguez,cust_237@example.com,Standard,Germany,Sample City,11824,2025-01-01,9999-12-31,True,1
+238,CUST_0238,Robert,Rodriguez,cust_238@example.com,Standard,United Kingdom,Sample City,98188,2025-01-01,9999-12-31,True,1
+239,CUST_0239,Robert,Martinez,cust_239@example.com,Standard,Australia,Sample City,58689,2025-01-01,9999-12-31,True,1
+240,CUST_0240,Mary,Brown,cust_240@example.com,Standard,Japan,Sample City,83584,2025-01-01,9999-12-31,True,1
+241,CUST_0241,Jennifer,Martinez,cust_241@example.com,Standard,United States,Sample City,93283,2025-01-01,9999-12-31,True,1
+242,CUST_0242,Linda,Jones,cust_242@example.com,Premium,United States,Sample City,28320,2025-01-01,9999-12-31,True,1
+243,CUST_0243,James,Smith,cust_243@example.com,Standard,Germany,Sample City,25220,2025-01-01,9999-12-31,True,1
+244,CUST_0244,Mary,Brown,cust_244@example.com,Premium,Canada,Sample City,60940,2025-01-01,9999-12-31,True,1
+245,CUST_0245,Linda,Garcia,cust_245@example.com,Premium,Australia,Sample City,80804,2025-01-01,9999-12-31,True,1
+246,CUST_0246,Michael,Martinez,cust_246@example.com,Premium,Canada,Sample City,64379,2025-01-01,9999-12-31,True,1
+247,CUST_0247,Mary,Davis,cust_247@example.com,Premium,United Kingdom,Sample City,14288,2025-01-01,9999-12-31,True,1
+248,CUST_0248,Jennifer,Brown,cust_248@example.com,Standard,Canada,Sample City,57537,2025-01-01,9999-12-31,True,1
+249,CUST_0249,Mary,Garcia,cust_249@example.com,Standard,Australia,Sample City,57012,2025-01-01,9999-12-31,True,1
+250,CUST_0250,James,Miller,cust_250@example.com,Standard,United States,Sample City,69600,2025-01-01,9999-12-31,True,1
+251,CUST_0251,Mary,Brown,cust_251@example.com,Premium,Japan,Sample City,12799,2025-01-01,9999-12-31,True,1
+252,CUST_0252,James,Garcia,cust_252@example.com,Standard,Canada,Sample City,84000,2025-01-01,9999-12-31,True,1
+253,CUST_0253,Patricia,Johnson,cust_253@example.com,Premium,Japan,Sample City,37152,2025-01-01,9999-12-31,True,1
+254,CUST_0254,Elizabeth,Brown,cust_254@example.com,Premium,Canada,Sample City,53064,2025-01-01,9999-12-31,True,1
+255,CUST_0255,John,Martinez,cust_255@example.com,Standard,Canada,Sample City,27038,2025-01-01,9999-12-31,True,1
+256,CUST_0256,William,Jones,cust_256@example.com,Premium,United States,Sample City,96646,2025-01-01,9999-12-31,True,1
+257,CUST_0257,James,Williams,cust_257@example.com,Standard,Canada,Sample City,87182,2025-01-01,9999-12-31,True,1
+258,CUST_0258,Jennifer,Smith,cust_258@example.com,Standard,United States,Sample City,26614,2025-01-01,9999-12-31,True,1
+259,CUST_0259,Michael,Rodriguez,cust_259@example.com,Standard,United States,Sample City,72422,2025-01-01,9999-12-31,True,1
+260,CUST_0260,Linda,Garcia,cust_260@example.com,Standard,United States,Sample City,69245,2025-01-01,9999-12-31,True,1
+261,CUST_0261,William,Brown,cust_261@example.com,VIP,United States,Sample City,96363,2025-01-01,9999-12-31,True,1
+262,CUST_0262,William,Jones,cust_262@example.com,Standard,United States,Sample City,17972,2025-01-01,9999-12-31,True,1
+263,CUST_0263,Linda,Miller,cust_263@example.com,Standard,United States,Sample City,74260,2025-01-01,9999-12-31,True,1
+264,CUST_0264,Linda,Johnson,cust_264@example.com,Premium,United Kingdom,Sample City,89730,2025-01-01,9999-12-31,True,1
+265,CUST_0265,John,Johnson,cust_265@example.com,Standard,Japan,Sample City,92978,2025-01-01,9999-12-31,True,1
+266,CUST_0266,Elizabeth,Rodriguez,cust_266@example.com,Premium,Germany,Sample City,88301,2025-01-01,9999-12-31,True,1
+267,CUST_0267,William,Jones,cust_267@example.com,Standard,Japan,Sample City,66387,2025-01-01,9999-12-31,True,1
+268,CUST_0268,Mary,Johnson,cust_268@example.com,Premium,Australia,Sample City,82264,2025-01-01,9999-12-31,True,1
+269,CUST_0269,Patricia,Miller,cust_269@example.com,Standard,Canada,Sample City,64239,2025-01-01,9999-12-31,True,1
+270,CUST_0270,Jennifer,Davis,cust_270@example.com,Standard,Australia,Sample City,22463,2025-01-01,9999-12-31,True,1
+271,CUST_0271,Jennifer,Miller,cust_271@example.com,Standard,United Kingdom,Sample City,59060,2025-01-01,9999-12-31,True,1
+272,CUST_0272,John,Davis,cust_272@example.com,Standard,United States,Sample City,22219,2025-01-01,9999-12-31,True,1
+273,CUST_0273,Michael,Johnson,cust_273@example.com,Premium,United Kingdom,Sample City,27054,2025-01-01,9999-12-31,True,1
+274,CUST_0274,William,Smith,cust_274@example.com,Standard,Japan,Sample City,83620,2025-01-01,9999-12-31,True,1
+275,CUST_0275,Jennifer,Johnson,cust_275@example.com,Standard,Australia,Sample City,65435,2025-01-01,9999-12-31,True,1
+276,CUST_0276,James,Jones,cust_276@example.com,Premium,United Kingdom,Sample City,23579,2025-01-01,9999-12-31,True,1
+277,CUST_0277,Elizabeth,Rodriguez,cust_277@example.com,Standard,Australia,Sample City,73201,2025-01-01,9999-12-31,True,1
+278,CUST_0278,Patricia,Johnson,cust_278@example.com,Standard,Japan,Sample City,58176,2025-01-01,9999-12-31,True,1
+279,CUST_0279,Mary,Jones,cust_279@example.com,Standard,Germany,Sample City,83526,2025-01-01,9999-12-31,True,1
+280,CUST_0280,Elizabeth,Martinez,cust_280@example.com,Premium,Japan,Sample City,13441,2025-01-01,9999-12-31,True,1
+281,CUST_0281,Elizabeth,Jones,cust_281@example.com,Standard,United Kingdom,Sample City,50499,2025-01-01,9999-12-31,True,1
+282,CUST_0282,Jennifer,Garcia,cust_282@example.com,Standard,Canada,Sample City,84228,2025-01-01,9999-12-31,True,1
+283,CUST_0283,Michael,Johnson,cust_283@example.com,Standard,Australia,Sample City,14018,2025-01-01,9999-12-31,True,1
+284,CUST_0284,Mary,Rodriguez,cust_284@example.com,Standard,Germany,Sample City,69460,2025-01-01,9999-12-31,True,1
+285,CUST_0285,Jennifer,Williams,cust_285@example.com,Standard,Australia,Sample City,52517,2025-01-01,9999-12-31,True,1
+286,CUST_0286,Elizabeth,Martinez,cust_286@example.com,Standard,United States,Sample City,30392,2025-01-01,9999-12-31,True,1
+287,CUST_0287,John,Martinez,cust_287@example.com,Standard,United States,Sample City,45665,2025-01-01,9999-12-31,True,1
+288,CUST_0288,Linda,Miller,cust_288@example.com,Standard,Germany,Sample City,64287,2025-01-01,9999-12-31,True,1
+289,CUST_0289,Robert,Brown,cust_289@example.com,Premium,United States,Sample City,55242,2025-01-01,9999-12-31,True,1
+290,CUST_0290,Michael,Johnson,cust_290@example.com,Standard,Australia,Sample City,87743,2025-01-01,9999-12-31,True,1
+291,CUST_0291,Linda,Rodriguez,cust_291@example.com,Premium,United States,Sample City,38903,2025-01-01,9999-12-31,True,1
+292,CUST_0292,Michael,Martinez,cust_292@example.com,Standard,Canada,Sample City,49507,2025-01-01,9999-12-31,True,1
+293,CUST_0293,Patricia,Williams,cust_293@example.com,Premium,United Kingdom,Sample City,53007,2025-01-01,9999-12-31,True,1
+294,CUST_0294,Mary,Smith,cust_294@example.com,Standard,Germany,Sample City,33028,2025-01-01,9999-12-31,True,1
+295,CUST_0295,John,Miller,cust_295@example.com,Standard,Canada,Sample City,75570,2025-01-01,9999-12-31,True,1
+296,CUST_0296,William,Garcia,cust_296@example.com,Standard,Australia,Sample City,15544,2025-01-01,9999-12-31,True,1
+297,CUST_0297,Michael,Smith,cust_297@example.com,Standard,United States,Sample City,51033,2025-01-01,9999-12-31,True,1
+298,CUST_0298,Elizabeth,Miller,cust_298@example.com,Standard,Australia,Sample City,93904,2025-01-01,9999-12-31,True,1
+299,CUST_0299,Michael,Jones,cust_299@example.com,Standard,United States,Sample City,52568,2025-01-01,9999-12-31,True,1
+300,CUST_0300,John,Martinez,cust_300@example.com,Standard,Australia,Sample City,57428,2025-01-01,9999-12-31,True,1
+301,CUST_0301,Mary,Miller,cust_301@example.com,Premium,Canada,Sample City,67104,2025-01-01,9999-12-31,True,1
+302,CUST_0302,Elizabeth,Miller,cust_302@example.com,Standard,Germany,Sample City,50668,2025-01-01,9999-12-31,True,1
+303,CUST_0303,Jennifer,Brown,cust_303@example.com,Standard,Canada,Sample City,20011,2025-01-01,9999-12-31,True,1
+304,CUST_0304,William,Johnson,cust_304@example.com,Standard,Canada,Sample City,55793,2025-01-01,9999-12-31,True,1
+305,CUST_0305,Jennifer,Williams,cust_305@example.com,Standard,Canada,Sample City,43550,2025-01-01,9999-12-31,True,1
+306,CUST_0306,Patricia,Williams,cust_306@example.com,Premium,Australia,Sample City,19876,2025-01-01,9999-12-31,True,1
+307,CUST_0307,John,Davis,cust_307@example.com,Standard,Japan,Sample City,85952,2025-01-01,9999-12-31,True,1
+308,CUST_0308,Linda,Martinez,cust_308@example.com,Premium,Japan,Sample City,52363,2025-01-01,9999-12-31,True,1
+309,CUST_0309,Jennifer,Williams,cust_309@example.com,Standard,Germany,Sample City,67961,2025-01-01,9999-12-31,True,1
+310,CUST_0310,Robert,Jones,cust_310@example.com,Standard,United Kingdom,Sample City,76497,2025-01-01,9999-12-31,True,1
+311,CUST_0311,Mary,Jones,cust_311@example.com,Standard,United States,Sample City,17456,2025-01-01,9999-12-31,True,1
+312,CUST_0312,Jennifer,Jones,cust_312@example.com,Standard,United States,Sample City,90610,2025-01-01,9999-12-31,True,1
+313,CUST_0313,Elizabeth,Rodriguez,cust_313@example.com,Standard,Japan,Sample City,82655,2025-01-01,9999-12-31,True,1
+314,CUST_0314,James,Davis,cust_314@example.com,VIP,Japan,Sample City,95437,2025-01-01,9999-12-31,True,1
+315,CUST_0315,Patricia,Garcia,cust_315@example.com,Premium,Japan,Sample City,29773,2025-01-01,9999-12-31,True,1
+316,CUST_0316,James,Davis,cust_316@example.com,Standard,United Kingdom,Sample City,21053,2025-01-01,9999-12-31,True,1
+317,CUST_0317,William,Williams,cust_317@example.com,Standard,Australia,Sample City,67377,2025-01-01,9999-12-31,True,1
+318,CUST_0318,Linda,Rodriguez,cust_318@example.com,Standard,Canada,Sample City,57696,2025-01-01,9999-12-31,True,1
+319,CUST_0319,Jennifer,Jones,cust_319@example.com,Standard,United Kingdom,Sample City,98984,2025-01-01,9999-12-31,True,1
+320,CUST_0320,Elizabeth,Smith,cust_320@example.com,Premium,Australia,Sample City,53863,2025-01-01,9999-12-31,True,1
+321,CUST_0321,Mary,Garcia,cust_321@example.com,Standard,Australia,Sample City,60667,2025-01-01,9999-12-31,True,1
+322,CUST_0322,Robert,Jones,cust_322@example.com,Premium,Australia,Sample City,88997,2025-01-01,9999-12-31,True,1
+323,CUST_0323,John,Garcia,cust_323@example.com,Standard,Australia,Sample City,28537,2025-01-01,9999-12-31,True,1
+324,CUST_0324,Jennifer,Jones,cust_324@example.com,VIP,Australia,Sample City,96787,2025-01-01,9999-12-31,True,1
+325,CUST_0325,Michael,Williams,cust_325@example.com,Standard,United States,Sample City,50577,2025-01-01,9999-12-31,True,1
+326,CUST_0326,William,Miller,cust_326@example.com,Premium,United Kingdom,Sample City,26750,2025-01-01,9999-12-31,True,1
+327,CUST_0327,William,Johnson,cust_327@example.com,Premium,Germany,Sample City,76648,2025-01-01,9999-12-31,True,1
+328,CUST_0328,Jennifer,Smith,cust_328@example.com,Standard,Canada,Sample City,38074,2025-01-01,9999-12-31,True,1
+329,CUST_0329,Jennifer,Davis,cust_329@example.com,Standard,Canada,Sample City,30308,2025-01-01,9999-12-31,True,1
+330,CUST_0330,Mary,Jones,cust_330@example.com,Premium,United States,Sample City,76543,2025-01-01,9999-12-31,True,1
+331,CUST_0331,William,Rodriguez,cust_331@example.com,Standard,United Kingdom,Sample City,91006,2025-01-01,9999-12-31,True,1
+332,CUST_0332,John,Martinez,cust_332@example.com,Standard,Canada,Sample City,33703,2025-01-01,9999-12-31,True,1
+333,CUST_0333,Elizabeth,Williams,cust_333@example.com,Premium,United States,Sample City,63852,2025-01-01,9999-12-31,True,1
+334,CUST_0334,Jennifer,Brown,cust_334@example.com,VIP,Japan,Sample City,47346,2025-01-01,9999-12-31,True,1
+335,CUST_0335,Linda,Brown,cust_335@example.com,Standard,United Kingdom,Sample City,71474,2025-01-01,9999-12-31,True,1
+336,CUST_0336,Patricia,Garcia,cust_336@example.com,Premium,Japan,Sample City,67749,2025-01-01,9999-12-31,True,1
+337,CUST_0337,Linda,Jones,cust_337@example.com,Premium,Japan,Sample City,79135,2025-01-01,9999-12-31,True,1
+338,CUST_0338,Michael,Williams,cust_338@example.com,Premium,Japan,Sample City,28140,2025-01-01,9999-12-31,True,1
+339,CUST_0339,Robert,Smith,cust_339@example.com,Premium,United Kingdom,Sample City,82684,2025-01-01,9999-12-31,True,1
+340,CUST_0340,Mary,Rodriguez,cust_340@example.com,Premium,United Kingdom,Sample City,20993,2025-01-01,9999-12-31,True,1
+341,CUST_0341,John,Jones,cust_341@example.com,Standard,Japan,Sample City,29313,2025-01-01,9999-12-31,True,1
+342,CUST_0342,Michael,Johnson,cust_342@example.com,VIP,Canada,Sample City,69130,2025-01-01,9999-12-31,True,1
+343,CUST_0343,Jennifer,Smith,cust_343@example.com,Standard,Germany,Sample City,75799,2025-01-01,9999-12-31,True,1
+344,CUST_0344,Jennifer,Brown,cust_344@example.com,Standard,United States,Sample City,59140,2025-01-01,9999-12-31,True,1
+345,CUST_0345,Patricia,Smith,cust_345@example.com,Standard,United States,Sample City,95191,2025-01-01,9999-12-31,True,1
+346,CUST_0346,Jennifer,Williams,cust_346@example.com,Standard,United Kingdom,Sample City,71925,2025-01-01,9999-12-31,True,1
+347,CUST_0347,John,Davis,cust_347@example.com,Standard,United States,Sample City,20384,2025-01-01,9999-12-31,True,1
+348,CUST_0348,James,Jones,cust_348@example.com,Standard,Canada,Sample City,81932,2025-01-01,9999-12-31,True,1
+349,CUST_0349,Elizabeth,Rodriguez,cust_349@example.com,Standard,United Kingdom,Sample City,41147,2025-01-01,9999-12-31,True,1
+350,CUST_0350,Robert,Johnson,cust_350@example.com,Standard,Germany,Sample City,93748,2025-01-01,9999-12-31,True,1
+351,CUST_0351,Elizabeth,Davis,cust_351@example.com,Standard,Germany,Sample City,88215,2025-01-01,9999-12-31,True,1
+352,CUST_0352,William,Smith,cust_352@example.com,Premium,Japan,Sample City,41711,2025-01-01,9999-12-31,True,1
+353,CUST_0353,John,Jones,cust_353@example.com,Standard,Japan,Sample City,56244,2025-01-01,9999-12-31,True,1
+354,CUST_0354,Patricia,Martinez,cust_354@example.com,Standard,Australia,Sample City,97584,2025-01-01,9999-12-31,True,1
+355,CUST_0355,Mary,Rodriguez,cust_355@example.com,VIP,United States,Sample City,78951,2025-01-01,9999-12-31,True,1
+356,CUST_0356,William,Rodriguez,cust_356@example.com,Premium,Japan,Sample City,82633,2025-01-01,9999-12-31,True,1
+357,CUST_0357,James,Miller,cust_357@example.com,Premium,United States,Sample City,93318,2025-01-01,9999-12-31,True,1
+358,CUST_0358,Michael,Garcia,cust_358@example.com,Standard,United States,Sample City,56805,2025-01-01,9999-12-31,True,1
+359,CUST_0359,Mary,Garcia,cust_359@example.com,Standard,Australia,Sample City,92346,2025-01-01,9999-12-31,True,1
+360,CUST_0360,Mary,Martinez,cust_360@example.com,Premium,United Kingdom,Sample City,27486,2025-01-01,9999-12-31,True,1
+361,CUST_0361,James,Garcia,cust_361@example.com,Standard,Australia,Sample City,32949,2025-01-01,9999-12-31,True,1
+362,CUST_0362,Linda,Davis,cust_362@example.com,Premium,Canada,Sample City,18270,2025-01-01,9999-12-31,True,1
+363,CUST_0363,Linda,Smith,cust_363@example.com,Standard,United States,Sample City,36144,2025-01-01,9999-12-31,True,1
+364,CUST_0364,James,Garcia,cust_364@example.com,VIP,Japan,Sample City,62196,2025-01-01,9999-12-31,True,1
+365,CUST_0365,William,Davis,cust_365@example.com,Standard,Australia,Sample City,35048,2025-01-01,9999-12-31,True,1
+366,CUST_0366,Robert,Garcia,cust_366@example.com,Premium,United States,Sample City,95948,2025-01-01,9999-12-31,True,1
+367,CUST_0367,Jennifer,Jones,cust_367@example.com,Standard,United Kingdom,Sample City,67272,2025-01-01,9999-12-31,True,1
+368,CUST_0368,Michael,Davis,cust_368@example.com,Premium,Germany,Sample City,54438,2025-01-01,9999-12-31,True,1
+369,CUST_0369,John,Davis,cust_369@example.com,Premium,United Kingdom,Sample City,78062,2025-01-01,9999-12-31,True,1
+370,CUST_0370,Robert,Johnson,cust_370@example.com,Premium,United States,Sample City,66440,2025-01-01,9999-12-31,True,1
+371,CUST_0371,Elizabeth,Williams,cust_371@example.com,Standard,United Kingdom,Sample City,23447,2025-01-01,9999-12-31,True,1
+372,CUST_0372,Mary,Garcia,cust_372@example.com,Premium,United Kingdom,Sample City,68447,2025-01-01,9999-12-31,True,1
+373,CUST_0373,Elizabeth,Miller,cust_373@example.com,Standard,Germany,Sample City,56077,2025-01-01,9999-12-31,True,1
+374,CUST_0374,Linda,Smith,cust_374@example.com,Premium,United Kingdom,Sample City,90589,2025-01-01,9999-12-31,True,1
+375,CUST_0375,Michael,Jones,cust_375@example.com,Premium,United States,Sample City,19835,2025-01-01,9999-12-31,True,1
+376,CUST_0376,Michael,Garcia,cust_376@example.com,Standard,Australia,Sample City,99051,2025-01-01,9999-12-31,True,1
+377,CUST_0377,John,Smith,cust_377@example.com,Standard,Japan,Sample City,98878,2025-01-01,9999-12-31,True,1
+378,CUST_0378,Linda,Smith,cust_378@example.com,Standard,Canada,Sample City,94562,2025-01-01,9999-12-31,True,1
+379,CUST_0379,Jennifer,Garcia,cust_379@example.com,Standard,Japan,Sample City,14244,2025-01-01,9999-12-31,True,1
+380,CUST_0380,Elizabeth,Williams,cust_380@example.com,Premium,United Kingdom,Sample City,58760,2025-01-01,9999-12-31,True,1
+381,CUST_0381,Linda,Johnson,cust_381@example.com,Standard,Japan,Sample City,58096,2025-01-01,9999-12-31,True,1
+382,CUST_0382,Michael,Garcia,cust_382@example.com,Premium,Canada,Sample City,24869,2025-01-01,9999-12-31,True,1
+383,CUST_0383,James,Williams,cust_383@example.com,Standard,Germany,Sample City,83619,2025-01-01,9999-12-31,True,1
+384,CUST_0384,Mary,Jones,cust_384@example.com,Premium,Australia,Sample City,68493,2025-01-01,9999-12-31,True,1
+385,CUST_0385,Patricia,Martinez,cust_385@example.com,Standard,Germany,Sample City,36237,2025-01-01,9999-12-31,True,1
+386,CUST_0386,Mary,Williams,cust_386@example.com,Premium,Germany,Sample City,32630,2025-01-01,9999-12-31,True,1
+387,CUST_0387,Linda,Johnson,cust_387@example.com,Premium,United Kingdom,Sample City,97535,2025-01-01,9999-12-31,True,1
+388,CUST_0388,Jennifer,Johnson,cust_388@example.com,Standard,United Kingdom,Sample City,49315,2025-01-01,9999-12-31,True,1
+389,CUST_0389,John,Williams,cust_389@example.com,Premium,Japan,Sample City,39391,2025-01-01,9999-12-31,True,1
+390,CUST_0390,Mary,Brown,cust_390@example.com,Premium,Canada,Sample City,74752,2025-01-01,9999-12-31,True,1
+391,CUST_0391,James,Garcia,cust_391@example.com,Standard,United Kingdom,Sample City,71263,2025-01-01,9999-12-31,True,1
+392,CUST_0392,William,Williams,cust_392@example.com,Premium,United States,Sample City,18617,2025-01-01,9999-12-31,True,1
+393,CUST_0393,Robert,Miller,cust_393@example.com,VIP,Australia,Sample City,72739,2025-01-01,9999-12-31,True,1
+394,CUST_0394,William,Miller,cust_394@example.com,Premium,Japan,Sample City,19666,2025-01-01,9999-12-31,True,1
+395,CUST_0395,John,Garcia,cust_395@example.com,Premium,Germany,Sample City,71057,2025-01-01,9999-12-31,True,1
+396,CUST_0396,William,Garcia,cust_396@example.com,Standard,Japan,Sample City,93859,2025-01-01,9999-12-31,True,1
+397,CUST_0397,Elizabeth,Williams,cust_397@example.com,Premium,Canada,Sample City,66704,2025-01-01,9999-12-31,True,1
+398,CUST_0398,William,Smith,cust_398@example.com,Premium,Japan,Sample City,30056,2025-01-01,9999-12-31,True,1
+399,CUST_0399,Robert,Williams,cust_399@example.com,Standard,Australia,Sample City,39552,2025-01-01,9999-12-31,True,1
+400,CUST_0400,Jennifer,Rodriguez,cust_400@example.com,Premium,United States,Sample City,42847,2025-01-01,9999-12-31,True,1
+401,CUST_0401,Patricia,Rodriguez,cust_401@example.com,Standard,Australia,Sample City,49691,2025-01-01,9999-12-31,True,1
+402,CUST_0402,Elizabeth,Rodriguez,cust_402@example.com,Standard,Australia,Sample City,32103,2025-01-01,9999-12-31,True,1
+403,CUST_0403,Elizabeth,Martinez,cust_403@example.com,Standard,Australia,Sample City,91851,2025-01-01,9999-12-31,True,1
+404,CUST_0404,Elizabeth,Garcia,cust_404@example.com,Premium,Japan,Sample City,15399,2025-01-01,9999-12-31,True,1
+405,CUST_0405,James,Johnson,cust_405@example.com,Standard,Australia,Sample City,85598,2025-01-01,9999-12-31,True,1
+406,CUST_0406,Robert,Brown,cust_406@example.com,Premium,Germany,Sample City,91016,2025-01-01,9999-12-31,True,1
+407,CUST_0407,James,Davis,cust_407@example.com,Premium,Japan,Sample City,47967,2025-01-01,9999-12-31,True,1
+408,CUST_0408,Robert,Davis,cust_408@example.com,Standard,Australia,Sample City,63227,2025-01-01,9999-12-31,True,1
+409,CUST_0409,Robert,Davis,cust_409@example.com,Standard,United States,Sample City,30719,2025-01-01,9999-12-31,True,1
+410,CUST_0410,Linda,Miller,cust_410@example.com,Standard,Canada,Sample City,54589,2025-01-01,9999-12-31,True,1
+411,CUST_0411,Elizabeth,Williams,cust_411@example.com,Standard,Australia,Sample City,51853,2025-01-01,9999-12-31,True,1
+412,CUST_0412,Jennifer,Miller,cust_412@example.com,Standard,United Kingdom,Sample City,77499,2025-01-01,9999-12-31,True,1
+413,CUST_0413,William,Johnson,cust_413@example.com,Standard,Germany,Sample City,26059,2025-01-01,9999-12-31,True,1
+414,CUST_0414,Robert,Davis,cust_414@example.com,Standard,United States,Sample City,16632,2025-01-01,9999-12-31,True,1
+415,CUST_0415,Robert,Miller,cust_415@example.com,Premium,Germany,Sample City,42541,2025-01-01,9999-12-31,True,1
+416,CUST_0416,John,Garcia,cust_416@example.com,VIP,Australia,Sample City,50988,2025-01-01,9999-12-31,True,1
+417,CUST_0417,Patricia,Williams,cust_417@example.com,Standard,Japan,Sample City,71186,2025-01-01,9999-12-31,True,1
+418,CUST_0418,Linda,Jones,cust_418@example.com,Standard,United States,Sample City,61543,2025-01-01,9999-12-31,True,1
+419,CUST_0419,William,Davis,cust_419@example.com,VIP,Canada,Sample City,86460,2025-01-01,9999-12-31,True,1
+420,CUST_0420,Jennifer,Smith,cust_420@example.com,Standard,Germany,Sample City,88317,2025-01-01,9999-12-31,True,1
+421,CUST_0421,Linda,Jones,cust_421@example.com,Standard,United States,Sample City,66482,2025-01-01,9999-12-31,True,1
+422,CUST_0422,John,Jones,cust_422@example.com,Premium,Germany,Sample City,57964,2025-01-01,9999-12-31,True,1
+423,CUST_0423,James,Miller,cust_423@example.com,Standard,Japan,Sample City,35513,2025-01-01,9999-12-31,True,1
+424,CUST_0424,Jennifer,Rodriguez,cust_424@example.com,Standard,Germany,Sample City,76093,2025-01-01,9999-12-31,True,1
+425,CUST_0425,Linda,Rodriguez,cust_425@example.com,Standard,Japan,Sample City,99181,2025-01-01,9999-12-31,True,1
+426,CUST_0426,Elizabeth,Johnson,cust_426@example.com,Standard,United States,Sample City,61629,2025-01-01,9999-12-31,True,1
+427,CUST_0427,Jennifer,Garcia,cust_427@example.com,Standard,United Kingdom,Sample City,28909,2025-01-01,9999-12-31,True,1
+428,CUST_0428,Patricia,Martinez,cust_428@example.com,Standard,Japan,Sample City,15276,2025-01-01,9999-12-31,True,1
+429,CUST_0429,James,Smith,cust_429@example.com,Standard,United Kingdom,Sample City,72094,2025-01-01,9999-12-31,True,1
+430,CUST_0430,William,Davis,cust_430@example.com,Standard,Japan,Sample City,28321,2025-01-01,9999-12-31,True,1
+431,CUST_0431,Jennifer,Martinez,cust_431@example.com,Standard,Germany,Sample City,90805,2025-01-01,9999-12-31,True,1
+432,CUST_0432,Robert,Martinez,cust_432@example.com,Standard,Japan,Sample City,79774,2025-01-01,9999-12-31,True,1
+433,CUST_0433,Linda,Martinez,cust_433@example.com,Standard,United States,Sample City,58281,2025-01-01,9999-12-31,True,1
+434,CUST_0434,Jennifer,Johnson,cust_434@example.com,VIP,Japan,Sample City,50327,2025-01-01,9999-12-31,True,1
+435,CUST_0435,James,Martinez,cust_435@example.com,Standard,Australia,Sample City,85821,2025-01-01,9999-12-31,True,1
+436,CUST_0436,Elizabeth,Brown,cust_436@example.com,Premium,Japan,Sample City,72973,2025-01-01,9999-12-31,True,1
+437,CUST_0437,John,Rodriguez,cust_437@example.com,Premium,Japan,Sample City,59832,2025-01-01,9999-12-31,True,1
+438,CUST_0438,John,Brown,cust_438@example.com,Standard,Australia,Sample City,24404,2025-01-01,9999-12-31,True,1
+439,CUST_0439,Patricia,Smith,cust_439@example.com,Standard,Germany,Sample City,29848,2025-01-01,9999-12-31,True,1
+440,CUST_0440,Michael,Brown,cust_440@example.com,Standard,Japan,Sample City,71814,2025-01-01,9999-12-31,True,1
+441,CUST_0441,James,Williams,cust_441@example.com,Standard,Japan,Sample City,52604,2025-01-01,9999-12-31,True,1
+442,CUST_0442,Linda,Rodriguez,cust_442@example.com,Standard,Canada,Sample City,70249,2025-01-01,9999-12-31,True,1
+443,CUST_0443,William,Garcia,cust_443@example.com,Standard,Australia,Sample City,99226,2025-01-01,9999-12-31,True,1
+444,CUST_0444,Robert,Martinez,cust_444@example.com,Standard,Canada,Sample City,46569,2025-01-01,9999-12-31,True,1
+445,CUST_0445,William,Jones,cust_445@example.com,Standard,United Kingdom,Sample City,47880,2025-01-01,9999-12-31,True,1
+446,CUST_0446,Patricia,Davis,cust_446@example.com,Standard,United Kingdom,Sample City,83464,2025-01-01,9999-12-31,True,1
+447,CUST_0447,Robert,Jones,cust_447@example.com,Standard,Australia,Sample City,81197,2025-01-01,9999-12-31,True,1
+448,CUST_0448,Michael,Miller,cust_448@example.com,Premium,Canada,Sample City,48070,2025-01-01,9999-12-31,True,1
+449,CUST_0449,James,Jones,cust_449@example.com,VIP,United States,Sample City,55398,2025-01-01,9999-12-31,True,1
+450,CUST_0450,Linda,Jones,cust_450@example.com,Premium,Canada,Sample City,36485,2025-01-01,9999-12-31,True,1
+451,CUST_0451,William,Jones,cust_451@example.com,VIP,Australia,Sample City,45601,2025-01-01,9999-12-31,True,1
+452,CUST_0452,John,Johnson,cust_452@example.com,Premium,Japan,Sample City,41363,2025-01-01,9999-12-31,True,1
+453,CUST_0453,Patricia,Smith,cust_453@example.com,Premium,Japan,Sample City,39579,2025-01-01,9999-12-31,True,1
+454,CUST_0454,Patricia,Smith,cust_454@example.com,Standard,United Kingdom,Sample City,71918,2025-01-01,9999-12-31,True,1
+455,CUST_0455,Mary,Williams,cust_455@example.com,Standard,Japan,Sample City,30701,2025-01-01,9999-12-31,True,1
+456,CUST_0456,Michael,Davis,cust_456@example.com,Standard,Canada,Sample City,47649,2025-01-01,9999-12-31,True,1
+457,CUST_0457,Jennifer,Jones,cust_457@example.com,Premium,United States,Sample City,95498,2025-01-01,9999-12-31,True,1
+458,CUST_0458,Elizabeth,Brown,cust_458@example.com,Standard,Australia,Sample City,14888,2025-01-01,9999-12-31,True,1
+459,CUST_0459,John,Miller,cust_459@example.com,Premium,Canada,Sample City,14763,2025-01-01,9999-12-31,True,1
+460,CUST_0460,Michael,Davis,cust_460@example.com,Standard,Australia,Sample City,47941,2025-01-01,9999-12-31,True,1
+461,CUST_0461,James,Smith,cust_461@example.com,Standard,Japan,Sample City,24064,2025-01-01,9999-12-31,True,1
+462,CUST_0462,Jennifer,Jones,cust_462@example.com,Standard,Australia,Sample City,81211,2025-01-01,9999-12-31,True,1
+463,CUST_0463,William,Davis,cust_463@example.com,Premium,Canada,Sample City,76088,2025-01-01,9999-12-31,True,1
+464,CUST_0464,Linda,Jones,cust_464@example.com,Standard,United States,Sample City,53343,2025-01-01,9999-12-31,True,1
+465,CUST_0465,John,Davis,cust_465@example.com,Premium,Australia,Sample City,34405,2025-01-01,9999-12-31,True,1
+466,CUST_0466,James,Garcia,cust_466@example.com,Premium,Japan,Sample City,98395,2025-01-01,9999-12-31,True,1
+467,CUST_0467,Patricia,Williams,cust_467@example.com,Premium,Australia,Sample City,63148,2025-01-01,9999-12-31,True,1
+468,CUST_0468,Michael,Rodriguez,cust_468@example.com,Standard,Germany,Sample City,97720,2025-01-01,9999-12-31,True,1
+469,CUST_0469,Mary,Williams,cust_469@example.com,VIP,Germany,Sample City,52415,2025-01-01,9999-12-31,True,1
+470,CUST_0470,Patricia,Smith,cust_470@example.com,Standard,Canada,Sample City,68554,2025-01-01,9999-12-31,True,1
+471,CUST_0471,Robert,Garcia,cust_471@example.com,Standard,Australia,Sample City,85088,2025-01-01,9999-12-31,True,1
+472,CUST_0472,James,Jones,cust_472@example.com,Premium,Australia,Sample City,40972,2025-01-01,9999-12-31,True,1
+473,CUST_0473,James,Johnson,cust_473@example.com,Standard,Canada,Sample City,63138,2025-01-01,9999-12-31,True,1
+474,CUST_0474,William,Jones,cust_474@example.com,Premium,Australia,Sample City,48671,2025-01-01,9999-12-31,True,1
+475,CUST_0475,Jennifer,Martinez,cust_475@example.com,Standard,Canada,Sample City,72676,2025-01-01,9999-12-31,True,1
+476,CUST_0476,John,Davis,cust_476@example.com,Premium,Japan,Sample City,58971,2025-01-01,9999-12-31,True,1
+477,CUST_0477,Michael,Rodriguez,cust_477@example.com,VIP,Japan,Sample City,97044,2025-01-01,9999-12-31,True,1
+478,CUST_0478,Patricia,Brown,cust_478@example.com,Premium,Japan,Sample City,20730,2025-01-01,9999-12-31,True,1
+479,CUST_0479,William,Davis,cust_479@example.com,Standard,United Kingdom,Sample City,20237,2025-01-01,9999-12-31,True,1
+480,CUST_0480,Elizabeth,Johnson,cust_480@example.com,Standard,Japan,Sample City,76255,2025-01-01,9999-12-31,True,1
+481,CUST_0481,Patricia,Martinez,cust_481@example.com,Standard,Canada,Sample City,53007,2025-01-01,9999-12-31,True,1
+482,CUST_0482,William,Davis,cust_482@example.com,Standard,Canada,Sample City,86434,2025-01-01,9999-12-31,True,1
+483,CUST_0483,Linda,Johnson,cust_483@example.com,Premium,Germany,Sample City,17292,2025-01-01,9999-12-31,True,1
+484,CUST_0484,Linda,Williams,cust_484@example.com,Standard,Germany,Sample City,83912,2025-01-01,9999-12-31,True,1
+485,CUST_0485,James,Rodriguez,cust_485@example.com,Standard,United Kingdom,Sample City,12853,2025-01-01,9999-12-31,True,1
+486,CUST_0486,Michael,Jones,cust_486@example.com,Premium,Australia,Sample City,38560,2025-01-01,9999-12-31,True,1
+487,CUST_0487,Elizabeth,Johnson,cust_487@example.com,Standard,United Kingdom,Sample City,18357,2025-01-01,9999-12-31,True,1
+488,CUST_0488,William,Smith,cust_488@example.com,VIP,United States,Sample City,71875,2025-01-01,9999-12-31,True,1
+489,CUST_0489,James,Jones,cust_489@example.com,Standard,Canada,Sample City,94085,2025-01-01,9999-12-31,True,1
+490,CUST_0490,Michael,Garcia,cust_490@example.com,VIP,Germany,Sample City,68790,2025-01-01,9999-12-31,True,1
+491,CUST_0491,Michael,Miller,cust_491@example.com,Standard,Australia,Sample City,80687,2025-01-01,9999-12-31,True,1
+492,CUST_0492,John,Garcia,cust_492@example.com,Standard,Japan,Sample City,61518,2025-01-01,9999-12-31,True,1
+493,CUST_0493,William,Williams,cust_493@example.com,Premium,Canada,Sample City,10455,2025-01-01,9999-12-31,True,1
+494,CUST_0494,James,Jones,cust_494@example.com,Standard,Australia,Sample City,81361,2025-01-01,9999-12-31,True,1
+495,CUST_0495,Michael,Rodriguez,cust_495@example.com,Standard,Canada,Sample City,42441,2025-01-01,9999-12-31,True,1
+496,CUST_0496,Linda,Garcia,cust_496@example.com,Standard,Canada,Sample City,24790,2025-01-01,9999-12-31,True,1
+497,CUST_0497,James,Miller,cust_497@example.com,Premium,United States,Sample City,41544,2025-01-01,9999-12-31,True,1
+498,CUST_0498,Patricia,Johnson,cust_498@example.com,Standard,United States,Sample City,68515,2025-01-01,9999-12-31,True,1
+499,CUST_0499,Elizabeth,Smith,cust_499@example.com,Standard,United States,Sample City,62725,2025-01-01,9999-12-31,True,1
+500,CUST_0500,Linda,Brown,cust_500@example.com,Standard,United States,Sample City,28367,2025-01-01,9999-12-31,True,1

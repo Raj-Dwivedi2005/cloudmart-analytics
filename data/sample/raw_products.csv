@@ -1,0 +1,46 @@
+product_key,product_id,product_name,category,subcategory,brand,unit_cost,list_price,effective_date,end_date,is_current,version
+1,PROD_0001,Smartphones Pro-Series 1,Consumer Electronics,Smartphones,CloudMart Elite,158.61,247.49,2025-01-01,9999-12-31,True,1
+2,PROD_0002,Smartphones Pro-Series 2,Consumer Electronics,Smartphones,CloudMart Elite,247.5,484.7,2025-01-01,9999-12-31,True,1
+3,PROD_0003,Smartphones Pro-Series 3,Consumer Electronics,Smartphones,CloudMart Elite,105.89,194.64,2025-01-01,9999-12-31,True,1
+4,PROD_0004,Laptops Pro-Series 1,Consumer Electronics,Laptops,CloudMart Elite,206.67,328.32,2025-01-01,9999-12-31,True,1
+5,PROD_0005,Laptops Pro-Series 2,Consumer Electronics,Laptops,CloudMart Elite,101.0,144.32,2025-01-01,9999-12-31,True,1
+6,PROD_0006,Laptops Pro-Series 3,Consumer Electronics,Laptops,CloudMart Elite,203.16,304.52,2025-01-01,9999-12-31,True,1
+7,PROD_0007,Audio Headphones Pro-Series 1,Consumer Electronics,Audio Headphones,CloudMart Elite,100.64,136.35,2025-01-01,9999-12-31,True,1
+8,PROD_0008,Audio Headphones Pro-Series 2,Consumer Electronics,Audio Headphones,CloudMart Elite,285.33,596.84,2025-01-01,9999-12-31,True,1
+9,PROD_0009,Audio Headphones Pro-Series 3,Consumer Electronics,Audio Headphones,CloudMart Elite,274.8,512.06,2025-01-01,9999-12-31,True,1
+10,PROD_0010,Smartwatches Pro-Series 1,Consumer Electronics,Smartwatches,CloudMart Elite,136.75,238.77,2025-01-01,9999-12-31,True,1
+11,PROD_0011,Smartwatches Pro-Series 2,Consumer Electronics,Smartwatches,CloudMart Elite,292.1,627.26,2025-01-01,9999-12-31,True,1
+12,PROD_0012,Smartwatches Pro-Series 3,Consumer Electronics,Smartwatches,CloudMart Elite,206.33,414.15,2025-01-01,9999-12-31,True,1
+13,PROD_0013,Coffee Makers Pro-Series 1,Home & Kitchen,Coffee Makers,CloudMart Elite,105.84,177.25,2025-01-01,9999-12-31,True,1
+14,PROD_0014,Coffee Makers Pro-Series 2,Home & Kitchen,Coffee Makers,CloudMart Elite,57.53,94.28,2025-01-01,9999-12-31,True,1
+15,PROD_0015,Coffee Makers Pro-Series 3,Home & Kitchen,Coffee Makers,CloudMart Elite,230.01,397.04,2025-01-01,9999-12-31,True,1
+16,PROD_0016,Air Fryers Pro-Series 1,Home & Kitchen,Air Fryers,CloudMart Elite,257.06,403.75,2025-01-01,9999-12-31,True,1
+17,PROD_0017,Air Fryers Pro-Series 2,Home & Kitchen,Air Fryers,CloudMart Elite,216.66,438.78,2025-01-01,9999-12-31,True,1
+18,PROD_0018,Air Fryers Pro-Series 3,Home & Kitchen,Air Fryers,CloudMart Elite,275.7,497.95,2025-01-01,9999-12-31,True,1
+19,PROD_0019,Blenders Pro-Series 1,Home & Kitchen,Blenders,CloudMart Elite,290.82,523.93,2025-01-01,9999-12-31,True,1
+20,PROD_0020,Blenders Pro-Series 2,Home & Kitchen,Blenders,CloudMart Elite,53.22,80.82,2025-01-01,9999-12-31,True,1
+21,PROD_0021,Blenders Pro-Series 3,Home & Kitchen,Blenders,CloudMart Elite,72.95,137.29,2025-01-01,9999-12-31,True,1
+22,PROD_0022,Robotic Vacuums Pro-Series 1,Home & Kitchen,Robotic Vacuums,CloudMart Elite,277.83,573.0,2025-01-01,9999-12-31,True,1
+23,PROD_0023,Robotic Vacuums Pro-Series 2,Home & Kitchen,Robotic Vacuums,CloudMart Elite,41.35,80.72,2025-01-01,9999-12-31,True,1
+24,PROD_0024,Robotic Vacuums Pro-Series 3,Home & Kitchen,Robotic Vacuums,CloudMart Elite,69.29,106.82,2025-01-01,9999-12-31,True,1
+25,PROD_0025,Men's Jackets Pro-Series 1,Apparel & Fashion,Men's Jackets,CloudMart Elite,207.0,381.42,2025-01-01,9999-12-31,True,1
+26,PROD_0026,Men's Jackets Pro-Series 2,Apparel & Fashion,Men's Jackets,CloudMart Elite,263.98,387.88,2025-01-01,9999-12-31,True,1
+27,PROD_0027,Men's Jackets Pro-Series 3,Apparel & Fashion,Men's Jackets,CloudMart Elite,232.08,452.99,2025-01-01,9999-12-31,True,1
+28,PROD_0028,Women's Sneakers Pro-Series 1,Apparel & Fashion,Women's Sneakers,CloudMart Elite,174.27,301.74,2025-01-01,9999-12-31,True,1
+29,PROD_0029,Women's Sneakers Pro-Series 2,Apparel & Fashion,Women's Sneakers,CloudMart Elite,262.8,420.39,2025-01-01,9999-12-31,True,1
+30,PROD_0030,Women's Sneakers Pro-Series 3,Apparel & Fashion,Women's Sneakers,CloudMart Elite,287.75,378.05,2025-01-01,9999-12-31,True,1
+31,PROD_0031,Sportswear Pro-Series 1,Apparel & Fashion,Sportswear,CloudMart Elite,282.09,610.97,2025-01-01,9999-12-31,True,1
+32,PROD_0032,Sportswear Pro-Series 2,Apparel & Fashion,Sportswear,CloudMart Elite,48.44,106.55,2025-01-01,9999-12-31,True,1
+33,PROD_0033,Sportswear Pro-Series 3,Apparel & Fashion,Sportswear,CloudMart Elite,151.49,230.01,2025-01-01,9999-12-31,True,1
+34,PROD_0034,Watches Pro-Series 1,Apparel & Fashion,Watches,CloudMart Elite,187.25,277.89,2025-01-01,9999-12-31,True,1
+35,PROD_0035,Watches Pro-Series 2,Apparel & Fashion,Watches,CloudMart Elite,275.81,495.6,2025-01-01,9999-12-31,True,1
+36,PROD_0036,Watches Pro-Series 3,Apparel & Fashion,Watches,CloudMart Elite,236.02,387.69,2025-01-01,9999-12-31,True,1
+37,PROD_0037,Hardcover Novels Pro-Series 1,Books & Media,Hardcover Novels,CloudMart Elite,167.09,271.24,2025-01-01,9999-12-31,True,1
+38,PROD_0038,Hardcover Novels Pro-Series 2,Books & Media,Hardcover Novels,CloudMart Elite,89.55,157.75,2025-01-01,9999-12-31,True,1
+39,PROD_0039,Hardcover Novels Pro-Series 3,Books & Media,Hardcover Novels,CloudMart Elite,156.72,217.64,2025-01-01,9999-12-31,True,1
+40,PROD_0040,Tech Guides Pro-Series 1,Books & Media,Tech Guides,CloudMart Elite,294.68,507.6,2025-01-01,9999-12-31,True,1
+41,PROD_0041,Tech Guides Pro-Series 2,Books & Media,Tech Guides,CloudMart Elite,254.32,539.9,2025-01-01,9999-12-31,True,1
+42,PROD_0042,Tech Guides Pro-Series 3,Books & Media,Tech Guides,CloudMart Elite,120.65,201.79,2025-01-01,9999-12-31,True,1
+43,PROD_0043,Audiobooks Pro-Series 1,Books & Media,Audiobooks,CloudMart Elite,175.32,262.83,2025-01-01,9999-12-31,True,1
+44,PROD_0044,Audiobooks Pro-Series 2,Books & Media,Audiobooks,CloudMart Elite,56.59,86.85,2025-01-01,9999-12-31,True,1
+45,PROD_0045,Audiobooks Pro-Series 3,Books & Media,Audiobooks,CloudMart Elite,281.41,512.51,2025-01-01,9999-12-31,True,1

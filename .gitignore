@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Terraform runtime & state
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/.terraform.lock.hcl
+
+# Large binary datasets (keep sample synthetic drops and exported snapshot)
+data/raw/*
+!data/sample/

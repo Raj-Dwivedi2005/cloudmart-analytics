@@ -1,0 +1,20 @@
+# Core Data & PySpark
+pyspark>=3.4.0
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0
+
+# AWS & GenAI
+boto3>=1.28.0
+botocore>=1.31.0
+
+# Visualization & Dashboard
+streamlit>=1.25.0
+plotly>=5.15.0
+altair>=5.0.0
+
+# Testing & Quality
+pytest>=7.4.0
+pytest-spark>=0.6.0
+ruff>=0.1.0
+python-dotenv>=1.0.0

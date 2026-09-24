@@ -1,0 +1,35 @@
+flowchart LR
+    subgraph DataSources["Data Ingestion Layer"]
+        A1["Batch Drops<br/>(CSV / JSON)"]
+        A2["Simulated REST API<br/>(Orders Stream)"]
+    end
+
+    subgraph RawZone["AWS S3 Raw Zone"]
+        B1[("s3://cloudmart-raw/<br/>orders, customers, products")]
+    end
+
+    subgraph ETL["AWS Glue PySpark Engine"]
+        C1["Data Quality Checks<br/>(Nulls, Schema, Duplicates)"]
+        C2["Transform & Clean<br/>(Currency, Standardize)"]
+        C3["SCD Type 2 Engine<br/>(Customer & Product Dims)"]
+    end
+
+    subgraph CuratedZone["AWS Data Storage & Warehouse"]
+        D1[("s3://cloudmart-curated/<br/>Parquet Lake")]
+        D2[("Amazon Redshift<br/>Star Schema Warehouse")]
+    end
+
+    subgraph Analytics["Analytics & Intelligence Layer"]
+        E1["Amazon Athena<br/>Ad-hoc SQL Queries"]
+        E2["Amazon Bedrock<br/>Claude / Titan LLM"]
+    end
+
+    subgraph Consumption["Presentation Layer"]
+        F1["Streamlit Executive Dashboard<br/>(Interactive Visuals & AI Insights)"]
+    end
+
+    DataSources --> RawZone
+    RawZone --> ETL
+    ETL --> CuratedZone
+    CuratedZone --> Analytics
+    Analytics --> Consumption

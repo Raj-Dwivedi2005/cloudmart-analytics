@@ -73,15 +73,18 @@ Click below to deploy and launch your live dashboard instantly on Streamlit Comm
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots & 3D Visualizations
 
-### 1. Sales Revenue Trends & Key Metrics
-![Sales Revenue Trends](screenshots/dashboard_revenue_trend.png)
+### 1. Enterprise 3D Data Architecture & Cybernetic Core
+![CloudMart 3D Hero Banner](screenshots/hero_banner.png)
 
-### 2. Product Category Breakdown & Top SKUs
-![Product Analytics](screenshots/dashboard_top_products.png)
+### 2. 3D Spatial Analytics & RFM Customer Clusters
+![3D Spatial Analytics](screenshots/dashboard_3d_spatial.png)
 
-### 3. Amazon Bedrock Generative AI Executive Summary
+### 3. Multi-Dimensional Portfolio Analytics, Sunburst & Radar Performance
+![Multi-Dimensional Analytics](screenshots/dashboard_multidim_radar.png)
+
+### 4. Amazon Bedrock Generative AI Executive Intelligence
 ![Amazon Bedrock AI Insights](screenshots/dashboard_ai_insights.png)
 
 ---
